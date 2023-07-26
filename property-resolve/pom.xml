@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>resource-resolve</artifactId>
+    <artifactId>property-resolve</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -46,6 +46,12 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.4.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>2.0</version>
         </dependency>
 
         <dependency>
